@@ -1,0 +1,53 @@
+.form-type-2{
+
+}
+.form-type-2 .label-custom{
+    border: 2px solid green;
+}
+.label{
+    width: 100px;
+}
+.input-custom{
+    width: 100%;
+}
+.w-custom{
+    width: 600px;
+}
+.w-custom-2{
+    width: 25%;
+}
+@media(max-width: 768px) {
+    .input-custom{
+        flex-wrap: wrap;
+        /*background-color: green;*/
+        width: 100%;
+    }
+    .input-custom input{
+        width: 100%;
+    }
+    .label{
+        width: 100%;
+        text-align: center;
+    }
+    .w-custom-2{
+        width: 50%;
+    }
+}
+/*.alert .alert-primary{*/
+/*    background-color: #141515;*/
+/*    color: whitesmoke;*/
+/*}*/
+.alert-custom{
+    background-color: #141515;
+    color: whitesmoke;
+}
+.btn-primary{
+    background: linear-gradient(45deg,darkslategray,black);
+}
+.custom-dim input[type="radio"],input[type="checkbox"]{
+
+    font-size: 7px;
+}
+input[type="text"]:focus{
+
+}

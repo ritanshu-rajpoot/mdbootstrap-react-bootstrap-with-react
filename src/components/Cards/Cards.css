@@ -1,0 +1,46 @@
+.cards-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.horizontal-scroll{
+    width: 80%;
+    display: flex;
+
+    overflow-x: scroll;
+}
+.horizontal-scroll::-webkit-scrollbar{
+    /*display: none;*/
+    scrollbar-color: red yellow;
+}
+.cards-wrapper .card{
+    min-width: 300px;
+    margin: 10px;
+}
+
+
+/*card example 2 starts here*/
+.person-detail{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.img-rounded{
+    width: 60%;
+    border: 1px solid green;
+}
+.img-border-custom{
+    border-radius: 50%;
+    border: 1px solid orange;
+    /*transform: translateY(-50px);*/
+    margin-top: -60px;
+}
+.texts-wrapper p{
+    /*text-justify: ;*/
+    color: pink;
+}
